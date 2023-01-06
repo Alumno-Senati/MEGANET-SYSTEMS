@@ -1,0 +1,222 @@
+/* Cuerpo o inicio (parte superior de la página) */
+body{
+	font: 15px Arial, Helvetica, sans-serif; /*Tamaño y tipo de letra, del Titulo de la EMPRESA*/
+	padding: 3px; /*relleno de pantalla*/
+	margin: 1px; /*Margen de pantalla*/
+	background: #FFFFFF; /*Fondo de pantalla*/
+}
+
+/* Estilos*/
+
+.contenedor{
+	width: 83%; /*Ancho de letra*/
+	margin: auto;
+	overflow: hidden;
+	margin-top: -81px; /*Margen superior del Titulo de la Empresa*/ 
+	margin-bottom: 10px; /*margen inferior de la franja Azul*/
+}
+
+ul{
+	margin: 2px; /*margen del Menú (INICIO, PRODUCTOS, SERVICIOS, CONSULTAS*/
+}
+
+/* encabezado */
+header{
+	background-color: #00055C; /*FRANJA AZUL*/
+	color: #FFFFFF; /*Color del nombre de la empresa*/
+	padding-top: 2px; /*Relleno superior de la franja azul*/
+	border-bottom: 86px solid #FF0000; /*FRANJA ROJA Y TAMAÑO*/
+}
+
+header a{
+	color: #FFFFFF; /*Color del Menú (Inicio, Productos, Servicios, Consultas)*/
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 15px; /*Tamaño del Menú (Inicio, Productos, Servicios, Consultas)*/
+	margin-right: 10px; /*Margen derecha del menú (Inicio, Productos, Servicios, Consultas)*/
+}
+
+header li{
+	float: left; /*El Menú se encuentra de Izquierda a Derecha*/
+	display: inline; /*pantalla en linea*/
+	padding-top: 0px; 
+	padding-right: 10px; /*relleno derecho del menú*/
+	padding-bottom: 0px; 
+	padding-left: 10px; /*relleno izquierdo del menú*/
+}
+
+header #marca{
+	float: left; /*El Titulo o nombre de la página está al lado izquierdo*/
+}
+
+header #marca h1{
+	margin: 2px; /*margen superior del Titulo*/
+}
+
+header nav{
+	float: right; /*El menú se encuentra al lado derecho*/
+	margin-top: 2px; /*Margen superior del menú*/
+}
+
+header .resaltado {
+	color: #FFFB00; /*La palabra EMPRESA ha sido resaltado de color amarillo*/
+	font-weight: bold; /*El titulo y el lema se encuentran en negrita*/
+}
+
+header .actual a{
+	color: #43FF00; /*INICIO, PRODUCTOS, SERVICIOS Y CONSULTAS estarán de color Verde*/
+	font-weight: bold; /*El menú esta en negrita*/
+}
+
+header a:hover{
+	color: #FF5908; /*El menú al ser seleccionado cambia a color anaranjado*/
+	font-weight: bold; /*El menú seleccionado estará en negrita*/
+}
+
+
+/*cabecera*/
+#cabecera{
+	min-height: 450px; /*Altura de la imagen principal*/
+	background: url("../img/cabecera.jpg") no-repeat 0 -210px; /*Tamaño de la imagen pricipal*/
+	text-align: center; /*El texto en la imagen principal se encuentra centrada*/
+	color: #FFFFFF; /*Color de texto en la imagen principal (blanco)*/
+	border-bottom: 4px solid #000000; /*FRANJA NEGRA Y TAMAÑO*/
+}
+
+#cabecera h1{
+	margin-top: 100px; /*El texto se encuentra en el centro de la imagen pricipal*/
+	font-size: 50px; /*Tamaño del texto mayor de la imagen principal*/
+	margin-bottom: 30px; /*Margen o espacio del texto en la imagen pricipal*/
+}
+
+
+#cabecera{
+	font-size: 25px; /*Tamaño del texto menor de la imagen principal*/
+}
+
+/*Cajas*/
+#cajas{
+	margin-top: 10px; /*margen superior de las redes sociales*/
+}
+
+#cajas .caja{
+	float: left; /*Las redes sociales se encuentran ordenadas de izquierda a derecha*/
+	text-align: center; /*Las redes sociales se encuentran en el centro de la página*/
+	width: 24%; /*Ancho o espacio entre cada red social*/
+}
+
+#cajas .caja img{
+	width: 90px; /**/
+}
+
+
+/*Footer o Pie de Pagina*/
+footer{
+	padding: 15px; /**/
+	margin-top: 20px; /**/
+	color: #ffffff; /**/
+	background-color: #1293d4; /**/
+	text-align: center; /**/
+	font-size: 18px; /**/
+}
+
+header{
+	padding-bottom: 10px; /**/
+}
+
+
+input, textarea{
+	width: 98%; /**/
+}
+
+
+#content .class1 img{
+	display: flex; /**/
+	float: left; /**/
+	width: 600px; /**/
+	height: 340px; /**/
+	padding: 10px; /**/
+	margin-left: 80px; /**/
+	margin-top: -80px; /**/
+}
+
+.text1{
+	display: flex; /**/
+	padding-left: 5px; /**/
+	text-align: center; /**/
+	font: 14px Arial, Helvetica, sans-serif; /**/
+	font-size: 20px; /**/
+	margin-top: 100px; /**/
+	margin-right: 80px; /**/
+    padding: 20px; /**/
+	border: 2px solid #B6E5FF; /**/
+	background-color: #D9EBF6; /**/
+	margin-bottom: 10px; /**/
+}
+
+
+
+#content .class2 img{
+	display: flex; /**/
+	float: right; /**/
+	width: 560px; /**/
+	height: 340px; /**/
+	padding: 10px; /**/
+	margin-right: 80px; /**/
+	margin-top: -60px; /**/
+	margin-bottom: 20px; /**/
+}
+
+.text2{
+	display: flex; /**/
+	padding-right: 5px; /**/
+	text-align: center; /**/
+	font: 14px Arial, Helvetica, sans-serif; /**/
+	font-size: 20px; /**/
+	margin-top: 180px; /**/
+	margin-left: 80px; /**/
+    padding: 20px; /**/
+	border: 2px solid #B6E5FF; /**/
+	background-color: #D9EBF6; /**/
+	margin-bottom: 10px; /**/
+}
+
+.horario{
+	margin-left: 80px; /**/
+	margin-top: 20px; /**/
+	margin-bottom: 10px; /**/
+	font-size: 16px; /**/
+	font-weight: bold;
+}
+
+.direccion{
+	margin-left: 80px; /**/
+	margin-bottom: 10px; /**/
+	font-size: 16px; /**/
+	font-weight: bold;
+}
+
+.correo{
+	margin-left: 80px; /**/
+	margin-bottom: 10px; /**/
+	font-size: 16px; /**/
+	font-weight: bold;
+}
+
+.contacto{
+	margin-left: 80px; /**/
+	margin-bottom: 50px; /**/
+	font-size: 16px; /**/
+	font-weight: bold;
+}
+
+.brand img{
+	width: 105px; /**/
+	height: 105px; /**/
+	font-weight: bold;
+}
+
+.ubication{
+	margin-left: 850px;
+	margin-top: -200px;
+}
